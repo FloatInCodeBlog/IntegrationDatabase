@@ -1,0 +1,4 @@
+CREATE ROLE admin_user WITH LOGIN PASSWORD 'secretPassword123!';
+
+CREATE DATABASE rental;
+GRANT ALL PRIVILEGES ON DATABASE rental TO admin_user;
